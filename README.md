@@ -28,3 +28,12 @@ An ML-based credit risk prediction system that classifies 42,000+ loan applicati
 •  Trained Gradient Boosting Classifier with RandomizedSearchCV hyperparameter tuning
 
 •  Validated with 5-Fold Cross Validation using F1 Macro scoring 
+
+# The Smart Queue System:
+•  P1 (Premium) → FAST_TRACK: 4-hour TAT, auto-assigned to senior appraiser
+
+•  P2 (Standard) → NORMAL QUEUE: 36-hour TAT
+
+•  P3 (Complex) → REVIEW_NEEDED: 48-hour TAT, routed to experienced appraisers
+
+•  P4 (Clear Decisions) → QUICK APPROVE/REJECT: 24-hour TAT
