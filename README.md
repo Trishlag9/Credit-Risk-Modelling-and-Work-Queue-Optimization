@@ -8,8 +8,11 @@ I built a machine learning system that changes this.
 
 # The Problem:
 •  Manual credit assessment: 3-5 days per file
+
 •  Applicant drop-offs due to slow turnaround
+
 •  No differentiation between a premium P1 customer and a high-risk P4 file
+
 •  Credit hub productivity tanks during peak periods
 
 # What I Built:
@@ -17,7 +20,11 @@ An ML-based credit risk prediction system that classifies 42,000+ loan applicati
 
 # Technical Approach:
 •  Merged CIBIL bureau data (62 features) with customer demographics (26 features)
+
 •  Feature selection using VIF, ANOVA, and Chi-Square tests — reduced 79 features to the most predictive set
+
 •  Handled class imbalance (P2-dominant dataset) with balanced sample weighting
+
 •  Trained Gradient Boosting Classifier with RandomizedSearchCV hyperparameter tuning
+
 •  Validated with 5-Fold Cross Validation using F1 Macro scoring 
