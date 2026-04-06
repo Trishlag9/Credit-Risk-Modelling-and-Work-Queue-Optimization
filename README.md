@@ -4,7 +4,7 @@ Built an ML-Powered Credit Risk Scoring System to Optimize Credit Hub Operations
 
 In most lending institutions, credit appraisal still runs on a first-come-first-served (FIFO) model. During month-end, when file inflow spikes 3x, appraisers are overwhelmed, TATs blow up, and premium customers wait in the same queue as clear-cut rejections.
 
-I built a machine learning system that changes this.
+I tried building a machine learning system around this.
 
 # The Problem:
 •  Manual credit assessment: 3-5 days per file
